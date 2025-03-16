@@ -24,30 +24,6 @@ body {
 	padding-inline: 10%;
 }
 
-/* .blur-div{
-  height: 100px;
-  position: absolute;
-  width: 500px;
-  top: 50px;
-  left: 80px;
-  background: #ffffffaa;
-  z-index: -1;
-  filter: blur(200px);
-
-}
-
-.blur-div::after{
-  content: "";
-  height: 100px;
-  position: absolute;
-  width: 500px;
-  bottom: -500px;
-  right: -150px;
-  background: #ffffffaa;
-  z-index: -1;
-  /* filter: blur(150px); */
-
-/* } */
 
 /* navbar */
 
@@ -146,6 +122,9 @@ a{
 	height: fit-content;
 	overflow: hidden;
 } 
+iframe{
+	margin-top: 200px;
+}
 img { 
   filter: brightness(1);
 	height: 400px;
@@ -167,4 +146,35 @@ button,.contact-button{
   border: none;
   color: white ;
   font-weight: 600;
+}
+
+
+/* ------------------------------------------------------------------ */
+
+
+/* About page */
+
+#about{
+	height: calc(100vh - 220px);
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.453);
+	
+}
+
+.about-text{
+	font-size: 38px;
+	font-weight: bold;
+	padding-left: 75px;
+}
+
+.about-image{
+	height: 250px;
+}
+.about-image-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	/* background: rebeccapurple; */
+	height: 600px;
 }
